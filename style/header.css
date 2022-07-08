@@ -1,0 +1,51 @@
+/* the header styling file */
+/* color #c2bfba */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+header {
+    background-color:white;
+    margin:0px;
+    padding:10px 20px;
+}
+navbar-brand {
+    font-family:'pacifico',cursive;
+}
+nav-color {
+    border-bottom:2px solid #c2bfba50;
+}
+span {
+    color:black;
+}
+body {
+    background-image:url("../img/spacejoy-KSfe2Z4REEM-unsplash.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+header ul li a{
+    margin:0px 30px;
+}
+.nav-link:hover {
+    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.527);
+    color:initial;
+}
+.nav-link {
+    color:black;
+    font-family:'pacifico',cursive;
+}
+.navbar-brand {
+    color:black;
+    font-family:'pacifico',cursive;
+    font-size:30px;
+}
+.navbar-brand:hover {
+    color:initial;
+    text-shadow:5px 5px 3px #0005;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* navbar-toggler:focus {outline:none;} hides the outline */

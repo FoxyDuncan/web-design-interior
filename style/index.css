@@ -1,0 +1,15 @@
+#section1 {
+    background-color:transparent;
+}
+.div-left {
+    font-family:'pacifico',cursive;
+    /* background-color:transparent; */
+    padding:100px 40px;
+    text-align:center;
+    /* border:white 1px solid; */
+}
+h1{
+    background-color:white;
+    max-height:max-content;
+    max-width:max-content;
+}

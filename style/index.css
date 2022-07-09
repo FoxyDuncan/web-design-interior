@@ -2,11 +2,13 @@
     background-color:transparent;
 }
 .div-right {
+    /* box-shadow: 50px 50px 1px 1px #fff; */
     text-align:center;
     padding:100px 40px;
     font-family:'pacifico',cursive;
 }
 .div-right h2{
+    box-shadow:10px 10px 3px 10px #fff;
     background-color:white;
     max-height:max-content;
     max-width:max-content;
@@ -16,12 +18,28 @@
     letter-spacing: 1px;
     font-weight:100;
 }
-button {
-    background-color:none;
+.div-left button {
+     background-color:transparent;
     color:black;
-    border:1px solid black;
+    border:2px solid black;
+    outline:none;
+    padding:10px 30px;
+    max-width:max-content;
+    margin:0px auto;
+}
+.div-left button:hover {
+    background-color:black;
+    color:white;
+    outline:none;
+    text-shadow:3px 3px 2px #fff3;
 }
 .div-left {
     text-align:center;
     font-family:'pacifico',cursive;
+    padding:200px 40px;
+}
+.div-left h1{
+    padding:20px 10px;
+    color:#000;
+    font-weight: 100;
 }

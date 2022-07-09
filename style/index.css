@@ -71,7 +71,7 @@
 /* designs */
 #designs {
     padding:20px 0px;
-    height:max-content
+    height:auto;
 }
 /* overflow */
 body, html {

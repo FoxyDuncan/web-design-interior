@@ -25,6 +25,13 @@ body {
 header ul li a{
     margin:0px 30px;
 }
+/* makes the color stable after click and go */
+.nav-link:focus {
+    color:black;
+}
+.nav-link:active {
+    color:black;
+}
 .nav-link:hover {
     text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.527);
     color:initial;
